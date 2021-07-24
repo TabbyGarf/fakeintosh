@@ -9,4 +9,4 @@ Refer to [this page](https://tabbygarf.club/templates/fakeintosh/index.html) for
 #### Thanks to:
 [Bryan Braun](http://bryanbraun.github.io/after-dark-css/) for the original css file lol<br>
 Robin Casady for the Public Domain [ChicagoFLF](http://christtrekker.users.sourceforge.net/fnt/chicago.shtml) font.
-The original screensavers and artwork are © 1989 Berkeley Systems Inc.
+
