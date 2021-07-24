@@ -1,6 +1,6 @@
 # Fakeintosh
 
-This is a fork of After-Dark-CSS focusing more on its menu for Neocities and Carrd websites.
+This is an edit of After-Dark-CSS focusing more on its menu for Neocities and Carrd websites.
 Refer to [this page](https://tabbygarf.club/templates/fakeintosh/index.html) for an example :)
 
 
