@@ -1,18 +1,28 @@
+<!doctype html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8">
-  <title>Fakeintosh</title>
+  <title>Neocities OS</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="img/favicon.png" />
+  <link rel="shortcut icon" href="https://neocities.org/favicon.ico?v=4" />
   <link rel="stylesheet" href="base.css">
   <style>
 body {
-      background-color: #929292;
+      background-image: url("https://tabbygarf.neocities.org/templates/neocitiesos/NeoOSwp.png");
     }
 
-    a {
+    a:link {
       color: black;
+    }
+    a:visited {
+      color: black;
+    }
+    a:active {
+      color: #333333;
+    }
+    a:hover {
+      color: #333333;
     }
 
     .content {
@@ -50,9 +60,10 @@ body {
       z-index:1;
       display: inline-flex;
       content: "";
-      background: url(https://tabbygarf.neocities.org/templates/fakeintosh/lines.png) repeat;
+      background: url(https://tabbygarf.neocities.org/templates/neocitiesos/lines.png) repeat;
       background-position:left;
       margin-right: 8px;
+      
     }
 
     .title:after {
@@ -60,9 +71,10 @@ body {
       width: 36%;
       display: inline-flex;
       content: "";
-      background: url(https://tabbygarf.neocities.org/templates/fakeintosh/lines.png) repeat;
+      background: url(https://tabbygarf.neocities.org/templates/neocitiesos/lines.png) repeat;
       background-position:right;
       margin-left: 8px;
+      
     }
 
     .content .ad {
@@ -109,21 +121,44 @@ body {
       background-color: #ccc;
     }
     
-
+    .taskbar{
+    background-color:#f6f6f6; 
+    position:fixed; 
+    left:0; 
+    top:0; 
+    border-bottom: 1px solid #38394a;
+    height:22px;
+    font-size:12px;
+    width:100%;
+    z-index:3;
+    }
+    
+    .button {
+      text-align: left;
+      font-size: 12px;
+      font-weight: normal;
+      height:22px;
+      text-decoration:none;
+      margin-left: 8px;
+      margin-right: 8px;
+      margin-bottom: 4px;
+      top: 0;
+    }
   </style>
 </head>
 
 <body>
 <center>
+<br><br>
   <div id="introduction" class="content" style="margin-top:20px; width:400px">
-  <div class="closebox"><a class="closebox-innr" id="x" href="#">Close</a></div>
-    <h1 class="title">Fakeintosh</h1>
-    <div class="windowcont" style="text-align:center"><p>Fakeintosh is an edit of <a href="https://github.com/bryanbraun/after-dark-css/">After Dark CSS</a> that allows for more customisation and focuses on the windows specifically, as the screensaver animations are not that important in the context of nostalgia website making in Neocities or even Carrd. <br>Customization includes changing the width of the windows and colouring them. This "edit" encourages creativity with nostalgia-inducing Carrds or Neocities pages.</p>
+  <div class="closebox"><a class="closebox-innr">Close</a></div>
+    <h1 class="title">Neocities OS</h1>
+    <div class="windowcont" style="text-align:center"><p>Neocities OS is an edit of <a href="https://github.com/bryanbraun/after-dark-css/">After Dark CSS</a> that allows for more customisation and focuses on the windows specifically, as the screensaver animations are not that important in the context of nostalgia website making in Neocities or even Carrd. <br>Customization includes changing the width of the windows and colouring them. This "edit" encourages creativity with nostalgia-inducing Carrds or Neocities pages.</p>
   </div>
   </div>  
 
   <div id="content" class="content" style="margin-top:20px; background-color: #D4F4F6">
-  <div class="closebox"><a class="closebox-innr" id="x" href="#">Close</a></div>
+  <div class="closebox"><a class="closebox-innr">Close</a></div>
   <h1 class="title" style="background-color: #A9D2D5;">Contents</h1> 
   <div class="windowcont">
   <p>While this template is not entirely original and is just small tweaks of the aforementioned github project it does contain some pros compared to the original project!
@@ -132,24 +167,23 @@ body {
   <li><b>Lightweight</b>: It only focuses to the main menu of the original project and not the animations.</li>
   <li><b>No fonts required or images</b>: I already host them and they are referenced in the CSS file or in the style tag<br></li>
   <li><b>Partially Customizable</b>: You can change the font if you want and stack multiple windows by changing their "margin-top".</li>
-  <li><b>Default Larger Windows</b>: Since this is more profile/website focused I think the resize is needed, you can set your own width anyway :)
+  <li><b>Default Larger Windows</b>: Since this is more profile/website focused I think the resize is needed, you can set your own width anyway :)</li>
+  <li><b>Taskbar</b>: Put all of your pages there!</li>
   </ul>
   </div>
   </div>  
   <div id="content" class="content" style="margin-top:20px; background-color: #FCE4FF; width:450px">
-  <div class="closebox"><a class="closebox-innr" id="x" href="#">Close</a></div>
+  <div class="closebox"><a class="closebox-innr">Close</a></div>
   <h1 class="title" style="background-color: #89608E;">Upcoming</h1> 
   <div class="windowcont">
   <p>Next versions will enable more customization
   <ul>
   <li><b>Sidebars</b>: I'll try and find a way so that it can be put in tables for sidebar crazies.</li> 
-  <li><b>Better Titles</b>: I'll try and make it so making titles' lines are uniform isnt such a struggle</li>
-  <li><b>Toolbars</b>: For those who need to add extra pages :)
   </ul>
   </div>
   </div>  
   <div id="content" class="content" style="margin-top:20px; background-color: #E3FFDE; width:400px">
-  <div class="closebox"><a class="closebox-innr" id="x" href="#">Close</a></div>
+  <div class="closebox"><a class="closebox-innr">Close</a></div>
   <h1 class="title" style="background-color: #C8FFBE;"> Credits </h1> 
   <div class="windowcont">
   <center>
@@ -165,8 +199,19 @@ body {
 <br>
   </div>
   </div>  
-  
+
   </center>
+  <div class="taskbar">
+  <table>
+  <tr>
+  <td><img src="fakicon.png" style="margin-left:16px;margin-right:8px; vertical-align: text-top; width:15px; height:15px"></td>
+  <td><a href="/" class="button">Home</a></td>
+  <td><a href="/templates" class="button">Templates</a></td>
+  <td><a href="https://github.com/TabbyGarf/fakeintosh" class="button">Repository</a></td>
+  <td style="position:fixed; right:0"><img src="battery.png" style="margin-left:8px;margin-right:8px; vertical-align: text-top; width:15px; height:15px"><img src="wifi.png" style="margin-left:8px;margin-right:8px; vertical-align: text-top; width:15px; height:15px"><a href="https://neocities.org"><img src="neoos.png" style="margin-left:8px;margin-right:16px; vertical-align: text-top; width:15px; height:15px"></a></td>
+  </tr>
+  </table>
+  </div>
 </body>
 
 </html>
